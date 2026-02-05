@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bryde\\source\\repos\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj": {}
+    "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bryde\\source\\repos\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj": {
+    "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bryde\\source\\repos\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj",
+        "projectUniqueName": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj",
         "projectName": "Algoritmer-Projekt_P_S",
-        "projectPath": "C:\\Users\\bryde\\source\\repos\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj",
+        "projectPath": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj",
         "packagesPath": "C:\\Users\\bryde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bryde\\source\\repos\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\obj\\",
+        "outputPath": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
