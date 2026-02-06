@@ -1,0 +1,15 @@
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\bin\Debug\net8.0\Algoritmer-Projekt_P_S.exe
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\bin\Debug\net8.0\Algoritmer-Projekt_P_S.deps.json
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\bin\Debug\net8.0\Algoritmer-Projekt_P_S.runtimeconfig.json
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\bin\Debug\net8.0\Algoritmer-Projekt_P_S.dll
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\bin\Debug\net8.0\Algoritmer-Projekt_P_S.pdb
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\obj\Debug\net8.0\Algoritmer-Projekt_P_S.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\obj\Debug\net8.0\Algoritmer-Projekt_P_S.AssemblyInfoInputs.cache
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\obj\Debug\net8.0\Algoritmer-Projekt_P_S.AssemblyInfo.cs
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\obj\Debug\net8.0\Algoritmer-Projekt_P_S.csproj.CoreCompileInputs.cache
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\obj\Debug\net8.0\Algoritmer-Projekt_P_S.sourcelink.json
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\obj\Debug\net8.0\Algoritmer-Projekt_P_S.dll
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\obj\Debug\net8.0\refint\Algoritmer-Projekt_P_S.dll
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\obj\Debug\net8.0\Algoritmer-Projekt_P_S.pdb
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\obj\Debug\net8.0\Algoritmer-Projekt_P_S.genruntimeconfig.cache
+C:\Users\bryde\Documents\GitHub\Algoritmer-Projekt_P_S\Algoritmer-Projekt_P_S\obj\Debug\net8.0\ref\Algoritmer-Projekt_P_S.dll
