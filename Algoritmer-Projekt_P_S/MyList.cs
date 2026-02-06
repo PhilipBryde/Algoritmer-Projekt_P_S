@@ -15,6 +15,10 @@ public class MyList<T>
         _antal++;
     }
 
+    public T Get(int index)
+    {
+        return _data[index];
+    }
     // Nu lavet som en property (uden parenteser), så din sorterings-kode virker
     public int Count => _antal;
 
