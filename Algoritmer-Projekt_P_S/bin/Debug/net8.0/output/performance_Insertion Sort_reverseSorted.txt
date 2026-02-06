@@ -1,0 +1,4 @@
+Algoritme: Insertion Sort
+Fil: reverseSorted.json
+Sammenligninger: 0
+Tid: 0 ms

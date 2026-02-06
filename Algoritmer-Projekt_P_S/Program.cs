@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Diagnostics;
+using Algoritmer_Projekt_P_S;
 
 // Klasser til JSON struktur
 public class JsonData { public List<int> values { get; set; } }
@@ -24,6 +25,7 @@ class Program
         string[] filer = { "sorted.json", "reverseSorted.json", "notSorted.json" };
 
         Sort algo = new Sort();
+        Insertion ins = new Insertion();
 
         // Opretter en mappe til resultaterne, hvis den ikke findes
         if (!Directory.Exists("output"))
@@ -32,7 +34,7 @@ class Program
         }
 
         Console.ForegroundColor = ConsoleColor.Blue;
-        Console.WriteLine("--- Starter BubbleSort på alle filer ---");
+        Console.WriteLine("--- Starter Sorteringer på alle filer ---");
         Console.ResetColor();
 
         foreach (string filNavn in filer)
@@ -66,6 +68,8 @@ class Program
                     sorted = resultatListe
                 };
 
+                //var outputData1 = new SortResult
+
                 // 4. Gem output filer i 'output' mappen
                 string baseNavn = Path.GetFileNameWithoutExtension(filNavn);
 
@@ -76,6 +80,15 @@ class Program
                 // Gem TXT (Performance)
                 string txtOutput = $"Algoritme: BubbleSort\nFil: {filNavn}\nSammenligninger: {sammenligninger}\nTid: {sw.ElapsedMilliseconds} ms";
                 File.WriteAllText($"output/performance_BubbleSort_{baseNavn}.txt", txtOutput);
+
+                MyList<int> insertionList = new MyList<int>();
+                foreach (int tal in indhold.values) insertionList.Add(tal);
+
+                Stopwatch sw1 = Stopwatch.StartNew();
+                int sammenligninger1 = ins.InsertionSort(insertionList, Comparer<int>.Default);
+                sw1.Stop();
+
+                GemResultat("Insertion Sort", filNavn, insertionList, sammenligninger1, sw1.ElapsedMilliseconds);
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"færdig! ({sammenligninger} sammenligninger, {sw.ElapsedMilliseconds} ms)");
@@ -90,5 +103,31 @@ class Program
         }
 
         Console.WriteLine("\nAlle filer er behandlet. Tjek mappen 'output' for resultater.");
+
+        static void GemResultat(string algoritme, string filNavn, MyList<int> liste, int sammenligninger, long tidMs)
+        {
+            List<int> resultatsListe = new List<int>();
+            for(int i = 0; i<liste.Count; i++)
+            {
+                resultatsListe.Add(liste[i]);
+            }
+            
+            var outputData = new SortResult
+            {
+                algorithm = algoritme,
+                dataset = filNavn,
+                comparisons = sammenligninger,
+                time_ms = tidMs,
+                sorted = resultatsListe,
+            };
+
+            string baseNavn = Path.GetFileNameWithoutExtension(filNavn);
+
+            string jsonOutput = JsonSerializer.Serialize(outputData, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText($"output/{algoritme}_{baseNavn}.json", jsonOutput);
+
+            string txtOutput = $"Algoritme: {algoritme}\nFil: {filNavn}\nSammenligninger: {sammenligninger}\nTid: {tidMs} ms";
+            File.WriteAllText($"output/performance_{algoritme}_{baseNavn}.txt", txtOutput);
+        }
     }
 }

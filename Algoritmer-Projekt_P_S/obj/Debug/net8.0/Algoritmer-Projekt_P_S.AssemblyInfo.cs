@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Algoritmer-Projekt_P_S")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fe8bf2320bb38524046306fa9e0a18e372fccf4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dec94bc36b2b3ae26926ad9eae906f69f839fac")]
 [assembly: System.Reflection.AssemblyProductAttribute("Algoritmer-Projekt_P_S")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Algoritmer-Projekt_P_S")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
