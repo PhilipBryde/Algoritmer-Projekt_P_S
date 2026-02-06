@@ -23,4 +23,8 @@ public class MyList<T>
         get => _data[index];
         set => _data[index] = value;
     }
+    public T Get(int index)
+    {
+        return _data[index];
+    }
 }
