@@ -2,27 +2,24 @@
 
 public class Sort
 {
-    // Metoden skal være generisk og bruge IComparer 
-    public int BubbleSort<T>(MyList<T> list, IComparer<T> comparer)
+    public int BubbleSort<T>(MyList<T> liste, IComparer<T> comparer)
     {
-        int comparisons = 0; // Tæl antal sammenligninger 
-        int n = list.Count();
+        int sammenligninger = 0;
+        int n = liste.Count; // Nu virker dette uden fejl
 
         for (int i = 0; i < n - 1; i++)
         {
             for (int j = 0; j < n - i - 1; j++)
             {
-                comparisons++; // Registrer sammenligningen 
-
-                if (comparer.Compare(list[j], list[j + 1]) > 0)
+                sammenligninger++;
+                if (comparer.Compare(liste[j], liste[j + 1]) > 0)
                 {
-                    // Swap
-                    T temp = list[j];
-                    list[j] = list[j + 1];
-                    list[j + 1] = temp;
+                    T temp = liste[j];
+                    liste[j] = liste[j + 1];
+                    liste[j + 1] = temp;
                 }
             }
         }
-        return comparisons; // Returner resultatet til performance-filen 
+        return sammenligninger;
     }
 }

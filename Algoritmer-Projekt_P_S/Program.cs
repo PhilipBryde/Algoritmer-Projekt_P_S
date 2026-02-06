@@ -2,41 +2,93 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
+using System.Diagnostics;
 
-// Klasse der matcher din JSON-fils struktur
-public class JsonData
+// Klasser til JSON struktur
+public class JsonData { public List<int> values { get; set; } }
+
+public class SortResult
 {
-    public List<int> values { get; set; }
+    public string algorithm { get; set; }
+    public string dataset { get; set; }
+    public int comparisons { get; set; }
+    public long time_ms { get; set; }
+    public List<int> sorted { get; set; }
 }
 
 class Program
 {
     static void Main()
     {
-        // 1. Læs indholdet fra din JSON-fil 
-        // Husk at 'notSorted.json' skal have 'Copy to Output Directory' sat til 'Copy if newer'
-        string jsonTekst = File.ReadAllText("notSorted.json");
+        // Navnene på dine tre JSON-filer
+        string[] filer = { "sorted.json", "reverseSorted.json", "notSorted.json" };
 
-        // 2. Omdan JSON-tekst til en midlertidig liste
-        JsonData dataFraFil = JsonSerializer.Deserialize<JsonData>(jsonTekst);
+        Sort algo = new Sort();
 
-        // 3. Overfør tallene til din egen MyList klasse 
-        MyList<int> minListe = new MyList<int>();
-        foreach (int tal in dataFraFil.values)
+        // Opretter en mappe til resultaterne, hvis den ikke findes
+        if (!Directory.Exists("output"))
         {
-            minListe.Add(tal);
+            Directory.CreateDirectory("output");
         }
 
-        // 4. Start sortering og tæl sammenligninger 
-        Sort algo = new Sort();
         Console.ForegroundColor = ConsoleColor.Blue;
-        Console.WriteLine("Starter sortering af notSorted.json...");
-
-        int antalSammenligninger = algo.BubbleSort(minListe, Comparer<int>.Default);
-
-        // 5. Vis resultatet i konsollen 
-        Console.WriteLine("Sortering er færdig!");
-        Console.WriteLine("Antal sammenligninger: " + antalSammenligninger);
+        Console.WriteLine("--- Starter BubbleSort på alle filer ---");
         Console.ResetColor();
+
+        foreach (string filNavn in filer)
+        {
+            Console.WriteLine($"\nBehandler: {filNavn}...");
+
+            try
+            {
+                // 1. Læs data
+                string jsonTekst = File.ReadAllText(filNavn);
+                JsonData indhold = JsonSerializer.Deserialize<JsonData>(jsonTekst);
+
+                MyList<int> minListe = new MyList<int>();
+                foreach (int tal in indhold.values) minListe.Add(tal);
+
+                // 2. Sorter og mål tid
+                Stopwatch sw = Stopwatch.StartNew();
+                int sammenligninger = algo.BubbleSort(minListe, Comparer<int>.Default);
+                sw.Stop();
+
+                // 3. Forbered data til output-filen
+                List<int> resultatListe = new List<int>();
+                for (int i = 0; i < minListe.Count; i++) resultatListe.Add(minListe[i]);
+
+                var outputData = new SortResult
+                {
+                    algorithm = "BubbleSort",
+                    dataset = filNavn,
+                    comparisons = sammenligninger,
+                    time_ms = sw.ElapsedMilliseconds,
+                    sorted = resultatListe
+                };
+
+                // 4. Gem output filer i 'output' mappen
+                string baseNavn = Path.GetFileNameWithoutExtension(filNavn);
+
+                // Gem JSON
+                string jsonOutput = JsonSerializer.Serialize(outputData, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText($"output/BubbleSort_{baseNavn}.json", jsonOutput);
+
+                // Gem TXT (Performance)
+                string txtOutput = $"Algoritme: BubbleSort\nFil: {filNavn}\nSammenligninger: {sammenligninger}\nTid: {sw.ElapsedMilliseconds} ms";
+                File.WriteAllText($"output/performance_BubbleSort_{baseNavn}.txt", txtOutput);
+
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"færdig! ({sammenligninger} sammenligninger, {sw.ElapsedMilliseconds} ms)");
+                Console.ResetColor();
+            }
+            catch (FileNotFoundException)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"FEJL: Kunne ikke finde filen '{filNavn}'. Husk 'Copy to Output Directory'!");
+                Console.ResetColor();
+            }
+        }
+
+        Console.WriteLine("\nAlle filer er behandlet. Tjek mappen 'output' for resultater.");
     }
 }
