@@ -2,27 +2,31 @@
 
 public class MyList<T>
 {
-    private T[] _items = new T[10000]; // Internt array til lagring 
-    private int _count = 0;
+    // Internt array til at gemme data 
+    private T[] _data = new T[1000];
+    private int _antal = 0;
 
-    // Tilføjelse af elementer 
-    public void Add(T item)
+    // Tilføjer et element til listen
+    public void Add(T punkt)
     {
-        if (_count == _items.Length)
+        if (_antal == _data.Length)
         {
-            Array.Resize(ref _items, _items.Length * 2);
+            Array.Resize(ref _data, _data.Length * 2);
         }
-        _items[_count] = item;
-        _count++;
+        _data[_antal] = punkt;
+        _antal++;
     }
 
-    // Returnering af antal elementer 
-    public int Count => _count;
+    // Returnerer antallet af elementer i listen 
+    public int Count()
+    {
+        return _antal;
+    }
 
-    // Adgang via indeks (Indexer) 
+    // Giver adgang til elementer via indeks, f.eks. liste[0]
     public T this[int index]
     {
-        get => _items[index];
-        set => _items[index] = value;
+        get => _data[index];
+        set => _data[index] = value;
     }
 }

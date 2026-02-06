@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\",
+  "WorkspaceRootPath": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\bryde\\documents\\github\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\bubblesort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\bryde\\documents\\github\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\bubblesort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\bubblesort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\mylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\bryde\\documents\\github\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\mylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\mylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\bryde\\documents\\github\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\json_data\\notsorted.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\json_data\\notsorted.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\bryde\\documents\\github\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\json_data\\reversesorted.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\json_data\\reversesorted.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\bryde\\documents\\github\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\json_data\\sorted.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\json_data\\sorted.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,37 +42,78 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "sorted.json",
+              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\JSON_Data\\sorted.json",
+              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\JSON_Data\\sorted.json",
+              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\JSON_Data\\sorted.json",
+              "RelativeToolTip": "Algoritmer-Projekt_P_S\\JSON_Data\\sorted.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-06T09:52:17.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "reverseSorted.json",
+              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\JSON_Data\\reverseSorted.json",
+              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\JSON_Data\\reverseSorted.json",
+              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\JSON_Data\\reverseSorted.json",
+              "RelativeToolTip": "Algoritmer-Projekt_P_S\\JSON_Data\\reverseSorted.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-06T09:52:14.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "notSorted.json",
+              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\JSON_Data\\notSorted.json",
+              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\JSON_Data\\notSorted.json",
+              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\JSON_Data\\notSorted.json",
+              "RelativeToolTip": "Algoritmer-Projekt_P_S\\JSON_Data\\notSorted.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-06T09:52:13.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MyList.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\MyList.cs",
+              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\MyList.cs",
               "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\MyList.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\MyList.cs",
+              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\MyList.cs",
               "RelativeToolTip": "Algoritmer-Projekt_P_S\\MyList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T09:04:58.699Z"
+              "WhenOpened": "2026-02-06T09:04:58.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "bubblesort.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\bubblesort.cs",
+              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\bubblesort.cs",
               "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\bubblesort.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\bubblesort.cs",
+              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\bubblesort.cs",
               "RelativeToolTip": "Algoritmer-Projekt_P_S\\bubblesort.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T08:56:21.242Z"
+              "WhenOpened": "2026-02-06T08:56:21.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Program.cs",
               "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\Program.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Program.cs",
+              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Program.cs",
               "RelativeToolTip": "Algoritmer-Projekt_P_S\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwA8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-05T12:05:13.259Z",
               "EditorCaption": ""

@@ -3,23 +3,40 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 
-// 1. Læs JSON filen
-string filePath = Path.Combine(
-            AppContext.BaseDirectory,
-            "JSON_Data",
-            "sorted.json"
-            ); string jsonTekst = File.ReadAllText("notSorted.json");
-List<int> midlertidig = JsonSerializer.Deserialize<List<int>>(jsonTekst);
-
-// 2. Overfør til din egen MyList
-MyList<int> minListe = new MyList<int>();
-foreach (var tal in midlertidig)
+// Klasse der matcher din JSON-fils struktur
+public class JsonData
 {
-    minListe.Add(tal);
+    public List<int> values { get; set; }
 }
 
-// 3. Kør sortering og tæl sammenligninger 
-Sort algo = new Sort();
-int antal = algo.BubbleSort(minListe, Comparer<int>.Default);
+class Program
+{
+    static void Main()
+    {
+        // 1. Læs indholdet fra din JSON-fil 
+        // Husk at 'notSorted.json' skal have 'Copy to Output Directory' sat til 'Copy if newer'
+        string jsonTekst = File.ReadAllText("notSorted.json");
 
-Console.WriteLine($"Færdig! Brugte {antal} sammenligninger.");
+        // 2. Omdan JSON-tekst til en midlertidig liste
+        JsonData dataFraFil = JsonSerializer.Deserialize<JsonData>(jsonTekst);
+
+        // 3. Overfør tallene til din egen MyList klasse 
+        MyList<int> minListe = new MyList<int>();
+        foreach (int tal in dataFraFil.values)
+        {
+            minListe.Add(tal);
+        }
+
+        // 4. Start sortering og tæl sammenligninger 
+        Sort algo = new Sort();
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("Starter sortering af notSorted.json...");
+
+        int antalSammenligninger = algo.BubbleSort(minListe, Comparer<int>.Default);
+
+        // 5. Vis resultatet i konsollen 
+        Console.WriteLine("Sortering er færdig!");
+        Console.WriteLine("Antal sammenligninger: " + antalSammenligninger);
+        Console.ResetColor();
+    }
+}

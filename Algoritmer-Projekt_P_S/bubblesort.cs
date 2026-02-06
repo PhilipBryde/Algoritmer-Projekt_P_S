@@ -6,7 +6,7 @@ public class Sort
     public int BubbleSort<T>(MyList<T> list, IComparer<T> comparer)
     {
         int comparisons = 0; // Tæl antal sammenligninger 
-        int n = list.Count;
+        int n = list.Count();
 
         for (int i = 0; i < n - 1; i++)
         {
