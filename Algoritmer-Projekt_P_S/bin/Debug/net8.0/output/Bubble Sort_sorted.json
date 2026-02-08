@@ -1,5 +1,5 @@
 {
-  "algorithm": "BubbleSort",
+  "algorithm": "Bubble Sort",
   "dataset": "sorted.json",
   "comparisons": 4950,
   "time_ms": 0,

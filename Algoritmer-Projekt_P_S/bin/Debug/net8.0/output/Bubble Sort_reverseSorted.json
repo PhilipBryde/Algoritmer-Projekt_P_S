@@ -1,6 +1,6 @@
 {
-  "algorithm": "BubbleSort",
-  "dataset": "notSorted.json",
+  "algorithm": "Bubble Sort",
+  "dataset": "reverseSorted.json",
   "comparisons": 4950,
   "time_ms": 0,
   "sorted": [

@@ -5,7 +5,7 @@ public class Sort
     public int BubbleSort<T>(MyList<T> liste, IComparer<T> comparer)
     {
         int sammenligninger = 0;
-        int n = liste.Count; // Nu virker dette uden fejl
+        int n = liste.Count;
 
         for (int i = 0; i < n - 1; i++)
         {

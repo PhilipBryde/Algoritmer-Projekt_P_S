@@ -47,51 +47,31 @@ class Program
                 string jsonTekst = File.ReadAllText(filNavn);
                 JsonData indhold = JsonSerializer.Deserialize<JsonData>(jsonTekst);
 
-                MyList<int> minListe = new MyList<int>();
-                foreach (int tal in indhold.values) minListe.Add(tal);
+                MyList<int> bubbleList = new MyList<int>();
+                foreach (int tal in indhold.values) bubbleList.Add(tal);
 
                 // 2. Sorter og mål tid
-                Stopwatch sw = Stopwatch.StartNew();
-                int sammenligninger = algo.BubbleSort(minListe, Comparer<int>.Default);
-                sw.Stop();
+                Stopwatch bubbleSW = Stopwatch.StartNew();
+                int sammenligninger = algo.BubbleSort(bubbleList, Comparer<int>.Default);
+                bubbleSW.Stop();
 
                 // 3. Forbered data til output-filen
                 List<int> resultatListe = new List<int>();
-                for (int i = 0; i < minListe.Count; i++) resultatListe.Add(minListe[i]);
+                for (int i = 0; i < bubbleList.Count; i++) resultatListe.Add(bubbleList[i]);
 
-                var outputData = new SortResult
-                {
-                    algorithm = "BubbleSort",
-                    dataset = filNavn,
-                    comparisons = sammenligninger,
-                    time_ms = sw.ElapsedMilliseconds,
-                    sorted = resultatListe
-                };
-
-                //var outputData1 = new SortResult
-
-                // 4. Gem output filer i 'output' mappen
-                string baseNavn = Path.GetFileNameWithoutExtension(filNavn);
-
-                // Gem JSON
-                string jsonOutput = JsonSerializer.Serialize(outputData, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText($"output/BubbleSort_{baseNavn}.json", jsonOutput);
-
-                // Gem TXT (Performance)
-                string txtOutput = $"Algoritme: BubbleSort\nFil: {filNavn}\nSammenligninger: {sammenligninger}\nTid: {sw.ElapsedMilliseconds} ms";
-                File.WriteAllText($"output/performance_BubbleSort_{baseNavn}.txt", txtOutput);
+                GemResultat("Bubble Sort", filNavn, bubbleList, sammenligninger, bubbleSW.ElapsedMilliseconds);
 
                 MyList<int> insertionList = new MyList<int>();
                 foreach (int tal in indhold.values) insertionList.Add(tal);
 
-                Stopwatch sw1 = Stopwatch.StartNew();
+                Stopwatch insertionSW = Stopwatch.StartNew();
                 int sammenligninger1 = ins.InsertionSort(insertionList, Comparer<int>.Default);
-                sw1.Stop();
+                insertionSW.Stop();
 
-                GemResultat("Insertion Sort", filNavn, insertionList, sammenligninger1, sw1.ElapsedMilliseconds);
+                GemResultat("Insertion Sort", filNavn, insertionList, sammenligninger1, insertionSW.ElapsedMilliseconds);
 
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"færdig! ({sammenligninger} sammenligninger, {sw.ElapsedMilliseconds} ms)");
+                Console.WriteLine($"færdig! ({sammenligninger} sammenligninger, {bubbleSW.ElapsedMilliseconds} ms)");
                 Console.ResetColor();
             }
             catch (FileNotFoundException)
