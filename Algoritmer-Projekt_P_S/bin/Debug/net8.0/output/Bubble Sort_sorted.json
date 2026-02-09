@@ -2,7 +2,7 @@
   "algorithm": "Bubble Sort",
   "dataset": "sorted.json",
   "comparisons": 4950,
-  "time_ms": 0.4319,
+  "time_ms": 0.9041,
   "sorted": [
     1,
     2,

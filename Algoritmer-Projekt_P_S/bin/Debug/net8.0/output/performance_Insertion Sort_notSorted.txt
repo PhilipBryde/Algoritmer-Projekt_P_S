@@ -1,4 +1,4 @@
 Algoritme: Insertion Sort
 Fil: notSorted.json
 Sammenligninger: 2204
-Tid: 0,0374 ms
+Tid: 0,0682 ms

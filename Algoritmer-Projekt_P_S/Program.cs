@@ -84,30 +84,50 @@ class Program
 
         Console.WriteLine("\nAlle filer er behandlet. Tjek mappen 'output' for resultater.");
 
-        static void GemResultat(string algoritme, string filNavn, MyList<int> liste, int sammenligninger, double tidMs)
-        {
-            List<int> resultatsListe = new List<int>();
-            for(int i = 0; i<liste.Count; i++)
-            {
-                resultatsListe.Add(liste[i]);
-            }
-            
-            var outputData = new SortResult
-            {
-                algorithm = algoritme,
-                dataset = filNavn,
-                comparisons = sammenligninger,
-                time_ms = tidMs,
-                sorted = resultatsListe,
-            };
 
-            string baseNavn = Path.GetFileNameWithoutExtension(filNavn);
+        //DELOPGAVE 2
+        Console.WriteLine("\nTryk enter for at starte Delopgave 2...");
+        Console.ReadLine();
+        KørDelopgave2();
 
-            string jsonOutput = JsonSerializer.Serialize(outputData, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText($"output/{algoritme}_{baseNavn}.json", jsonOutput);
-
-            string txtOutput = $"Algoritme: {algoritme}\nFil: {filNavn}\nSammenligninger: {sammenligninger}\nTid: {tidMs} ms";
-            File.WriteAllText($"output/performance_{algoritme}_{baseNavn}.txt", txtOutput);
-        }
+        Console.WriteLine("\nProgrammet er færdigt. Tryk enter for at lukke.");
+        Console.ReadLine();
     }
-}
+
+
+    static void GemResultat(string algoritme, string filNavn, MyList<int> liste, int sammenligninger, double tidMs)
+    {
+        List<int> resultatsListe = new List<int>();
+        for (int i = 0; i < liste.Count; i++)
+        {
+            resultatsListe.Add(liste[i]);
+        }
+
+        var outputData = new SortResult
+        {
+            algorithm = algoritme,
+            dataset = filNavn,
+            comparisons = sammenligninger,
+            time_ms = tidMs,
+            sorted = resultatsListe,
+        };
+
+        string baseNavn = Path.GetFileNameWithoutExtension(filNavn);
+
+        string jsonOutput = JsonSerializer.Serialize(outputData, new JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText($"output/{algoritme}_{baseNavn}.json", jsonOutput);
+
+        string txtOutput = $"Algoritme: {algoritme}\nFil: {filNavn}\nSammenligninger: {sammenligninger}\nTid: {tidMs} ms";
+        File.WriteAllText($"output/performance_{algoritme}_{baseNavn}.txt", txtOutput);
+    }
+
+    static void KørDelopgave2()
+    {
+        Console.ForegroundColor = ConsoleColor.Magenta;
+        Console.WriteLine("--- Bygger Forlystelsespark (Delopgave 2) ---");
+        Console.ResetColor();
+
+        Forlystelsespark tivoli = new Forlystelsespark();
+        tivoli.BygOgVisPark();
+    }
+} 
