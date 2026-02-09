@@ -127,7 +127,23 @@ class Program
         Console.WriteLine("--- Bygger Forlystelsespark (Delopgave 2) ---");
         Console.ResetColor();
 
+        // 1. Byg parken
         Forlystelsespark tivoli = new Forlystelsespark();
-        tivoli.BygOgVisPark();
+        Forlystelse startSted = tivoli.BygOgVisPark();
+
+        Console.WriteLine("\nTryk på ENTER for at starte søgninger...");
+        Console.ReadLine();
+
+        // 2. Kør BFS (Breadth-First Search)
+        BFS bfsAlgo = new BFS(); // Opretter BFS klassen
+        bfsAlgo.Kør(startSted, "Water Ride");
+        bfsAlgo.Kør(startSted, "Volcano Ride");
+
+        Console.WriteLine("\n--------------------------------");
+
+        // 3. Kør DFS (Depth-First Search)
+        DFS dfsAlgo = new DFS(); // Opretter DFS klassen
+        dfsAlgo.Kør(startSted, "Water Ride");
+        dfsAlgo.Kør(startSted, "Volcano Ride");
     }
 } 

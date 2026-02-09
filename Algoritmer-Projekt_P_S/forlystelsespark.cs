@@ -6,7 +6,7 @@ namespace Algoritmer_Projekt_P_S
 
     public class Forlystelsespark
     {
-        public void BygOgVisPark()
+        public Forlystelse BygOgVisPark()
         {
             // --- 1. OPRET FORLYSTELSER ---
             Forlystelse entrance = new Forlystelse("Entrance");
@@ -45,6 +45,8 @@ namespace Algoritmer_Projekt_P_S
             VisNaboer(climbingTower);
             VisNaboer(miniTrain);
             VisNaboer(iceCream);
+
+            return entrance;
         }
 
         // Hjælpe-metode til at udskrive

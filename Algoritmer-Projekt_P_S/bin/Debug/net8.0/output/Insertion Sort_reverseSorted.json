@@ -2,7 +2,7 @@
   "algorithm": "Insertion Sort",
   "dataset": "reverseSorted.json",
   "comparisons": 4950,
-  "time_ms": 0.3321,
+  "time_ms": 0.1571,
   "sorted": [
     1,
     2,

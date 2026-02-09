@@ -1,4 +1,4 @@
 Algoritme: Bubble Sort
 Fil: reverseSorted.json
 Sammenligninger: 4950
-Tid: 0,2902 ms
+Tid: 0,337 ms
