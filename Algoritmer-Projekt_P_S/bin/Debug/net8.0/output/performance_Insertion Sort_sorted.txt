@@ -1,4 +1,4 @@
 Algoritme: Insertion Sort
 Fil: sorted.json
 Sammenligninger: 0
-Tid: 0 ms
+Tid: 0,3848 ms

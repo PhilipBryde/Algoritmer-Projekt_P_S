@@ -13,7 +13,7 @@ public class SortResult
     public string algorithm { get; set; }
     public string dataset { get; set; }
     public int comparisons { get; set; }
-    public long time_ms { get; set; }
+    public double time_ms { get; set; }
     public List<int> sorted { get; set; }
 }
 
@@ -59,7 +59,7 @@ class Program
                 List<int> resultatListe = new List<int>();
                 for (int i = 0; i < bubbleList.Count; i++) resultatListe.Add(bubbleList[i]);
 
-                GemResultat("Bubble Sort", filNavn, bubbleList, sammenligninger, bubbleSW.ElapsedMilliseconds);
+                GemResultat("Bubble Sort", filNavn, bubbleList, sammenligninger, bubbleSW.Elapsed.TotalMilliseconds);
 
                 MyList<int> insertionList = new MyList<int>();
                 foreach (int tal in indhold.values) insertionList.Add(tal);
@@ -68,7 +68,7 @@ class Program
                 int sammenligninger1 = ins.InsertionSort(insertionList, Comparer<int>.Default);
                 insertionSW.Stop();
 
-                GemResultat("Insertion Sort", filNavn, insertionList, sammenligninger1, insertionSW.ElapsedMilliseconds);
+                GemResultat("Insertion Sort", filNavn, insertionList, sammenligninger1, insertionSW.Elapsed.TotalMilliseconds);
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"færdig! ({sammenligninger} sammenligninger, {bubbleSW.ElapsedMilliseconds} ms)");
@@ -84,7 +84,7 @@ class Program
 
         Console.WriteLine("\nAlle filer er behandlet. Tjek mappen 'output' for resultater.");
 
-        static void GemResultat(string algoritme, string filNavn, MyList<int> liste, int sammenligninger, long tidMs)
+        static void GemResultat(string algoritme, string filNavn, MyList<int> liste, int sammenligninger, double tidMs)
         {
             List<int> resultatsListe = new List<int>();
             for(int i = 0; i<liste.Count; i++)

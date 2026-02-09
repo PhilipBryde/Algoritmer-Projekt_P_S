@@ -19,6 +19,7 @@ namespace Algoritmer_Projekt_P_S
 
                 while (pointer > 0 && comparer.Compare(value, liste.Get(pointer - 1)) < 0)
                 {
+                    sammenligninger++;
                     liste[pointer] = liste[pointer - 1];
                     pointer = pointer - 1;
                 }
