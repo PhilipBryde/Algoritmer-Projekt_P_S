@@ -43,6 +43,8 @@ namespace Algoritmer_Projekt_P_S
             VisNaboer(carousel);
             VisNaboer(rollerCoaster);
             VisNaboer(climbingTower);
+            VisNaboer(miniTrain);
+            VisNaboer(iceCream);
         }
 
         // Hjælpe-metode til at udskrive

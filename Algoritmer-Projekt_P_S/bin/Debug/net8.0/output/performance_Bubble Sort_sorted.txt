@@ -1,4 +1,4 @@
 Algoritme: Bubble Sort
 Fil: sorted.json
 Sammenligninger: 4950
-Tid: 0,9041 ms
+Tid: 0,9878 ms
