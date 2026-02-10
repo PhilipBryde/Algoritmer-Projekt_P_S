@@ -48,7 +48,7 @@ namespace Algoritmer_Projekt_P_S
             Console.WriteLine("Mål ikke fundet.");
         }
 
-        private void UdskrivSti(Forlystelse målNode, Dictionary<Forlystelse, Forlystelse> rute)
+        public void UdskrivSti(Forlystelse målNode, Dictionary<Forlystelse, Forlystelse> rute)
         {
             List<string> sti = new List<string>();
             Forlystelse temp = målNode;

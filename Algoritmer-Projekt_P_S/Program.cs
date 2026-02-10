@@ -59,22 +59,22 @@ class Program
                 List<int> resultatListe = new List<int>();
                 for (int i = 0; i < bubbleList.Count; i++) resultatListe.Add(bubbleList[i]);
 
-                GemResultat("Bubble Sort", filNavn, bubbleList, sammenligninger, bubbleSW.Elapsed.TotalMilliseconds);
+                GemResultat("Bubble Sort", filNavn, bubbleList, sammenligninger, bubbleSW.Elapsed.TotalMilliseconds); //Kalder på metoden med de korrekte info som input
 
                 MyList<int> insertionList = new MyList<int>();
-                foreach (int tal in indhold.values) insertionList.Add(tal);
+                foreach (int tal in indhold.values) insertionList.Add(tal); 
 
-                Stopwatch insertionSW = Stopwatch.StartNew();
+                Stopwatch insertionSW = Stopwatch.StartNew(); //Sorterer og måler tid
                 int sammenligninger1 = ins.InsertionSort(insertionList, Comparer<int>.Default);
                 insertionSW.Stop();
 
-                GemResultat("Insertion Sort", filNavn, insertionList, sammenligninger1, insertionSW.Elapsed.TotalMilliseconds);
+                GemResultat("Insertion Sort", filNavn, insertionList, sammenligninger1, insertionSW.Elapsed.TotalMilliseconds); //Kalder på metoden med de korrekte info som input
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"færdig! ({sammenligninger} sammenligninger, {bubbleSW.ElapsedMilliseconds} ms)");
                 Console.ResetColor();
             }
-            catch (FileNotFoundException)
+            catch (FileNotFoundException) //Hvis de originale json filer ikke kan findes kommer denne fejlbesked
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"FEJL: Kunne ikke finde filen '{filNavn}'. Husk 'Copy to Output Directory'!");
@@ -95,7 +95,7 @@ class Program
     }
 
 
-    static void GemResultat(string algoritme, string filNavn, MyList<int> liste, int sammenligninger, double tidMs)
+    static void GemResultat(string algoritme, string filNavn, MyList<int> liste, int sammenligninger, double tidMs) //Metode der gemmer resultater i json og txt filer
     {
         List<int> resultatsListe = new List<int>();
         for (int i = 0; i < liste.Count; i++)
@@ -118,7 +118,7 @@ class Program
         File.WriteAllText($"output/{algoritme}_{baseNavn}.json", jsonOutput);
 
         string txtOutput = $"Algoritme: {algoritme}\nFil: {filNavn}\nSammenligninger: {sammenligninger}\nTid: {tidMs} ms";
-        File.WriteAllText($"output/performance_{algoritme}_{baseNavn}.txt", txtOutput);
+        File.WriteAllText($"output/performance_{algoritme}_{baseNavn}.txt", txtOutput); //json og txt fil oprettes med de korrekte navne og info
     }
 
     static void KørDelopgave2()
