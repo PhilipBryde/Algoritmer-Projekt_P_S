@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Algoritmer-Projekt_P_S",
-    "\\Algoritmer-Projekt_P_S\\JSON_Data"
+    "\\Algoritmer-Projekt_P_S\\JSON_Data",
+    "\\Algoritmer_Projekt_P_S.Tests"
   ],
-  "SelectedNode": "\\Algoritmer-Projekt_P_S.slnx",
+  "SelectedNode": "\\Algoritmer_Projekt_P_S.Tests\\Test1.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Algoritmer_Projekt_P_S.Tests")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90ffbc40086e1e7642f444d1fa3d40dbb29137ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Algoritmer_Projekt_P_S.Tests")]

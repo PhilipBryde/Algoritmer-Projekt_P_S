@@ -1,7 +1,13 @@
 ﻿using System;
 
-public class MyList<T>
+/// <summary>
+/// En simpel, generisk liste, der fungerer som et dynamisk array.
+/// Denne klasse erstatter standard C# List i opgaven.
+/// </summary>
+public class MyList<T> 
 {
+    // Det interne array, hvor vi faktisk gemmer dataene.
+    // Vi starter med en kapacitet på 1000 for at undgå at resize for tit.
     private T[] _data = new T[1000];
     private int _antal = 0;
 
@@ -15,7 +21,7 @@ public class MyList<T>
         _antal++;
     }
 
-    // Nu lavet som en property (uden parenteser), så din sorterings-kode virker
+    
     public int Count => _antal;
 
     public T this[int index]
