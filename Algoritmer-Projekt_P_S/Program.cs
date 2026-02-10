@@ -6,8 +6,12 @@ using System.Diagnostics;
 using Algoritmer_Projekt_P_S;
 
 // Klasser til JSON struktur
-public class JsonData { public List<int> values { get; set; } }
+public class JsonData { public List<int> values { get; set; } } //json 
 
+/// <summary>
+/// Sorteringsresultat properties der gemmes til output filerne
+/// inkluderer algoritmenavnet, dataset, antal sammenligninger, tid og det sorteret data
+/// </summary>
 public class SortResult
 {
     public string algorithm { get; set; }
@@ -19,9 +23,14 @@ public class SortResult
 
 class Program
 {
+    /// <summary>
+    /// Hovedprogrammet kører først delopgave 1 og derefter delopgave 2
+    /// Læser 3 json filer og sorterer dens data med insertion og bubble sort algoritmer, måler derefter performance
+    /// De endelige resultater bliver gemt i en output mappe, derefter køres delopgave 2 med DFS OG BFS
+    /// </summary>
     static void Main()
     {
-        // Navnene på dine tre JSON-filer
+        // Navnene på de tre JSON-filer der skal sorteres
         string[] filer = { "sorted.json", "reverseSorted.json", "notSorted.json" };
 
         Sort algo = new Sort();
@@ -37,20 +46,21 @@ class Program
         Console.WriteLine("--- Starter Sorteringer på alle filer ---");
         Console.ResetColor();
 
-        foreach (string filNavn in filer)
+        foreach (string filNavn in filer) //Går igennem hver fil og sorterer med begge algoritmer
         {
             Console.WriteLine($"\nBehandler: {filNavn}...");
 
             try
             {
-                // 1. Læs data
+                //Læs data
                 string jsonTekst = File.ReadAllText(filNavn);
                 JsonData indhold = JsonSerializer.Deserialize<JsonData>(jsonTekst);
 
+                //Kopier data til en ny liste
                 MyList<int> bubbleList = new MyList<int>();
                 foreach (int tal in indhold.values) bubbleList.Add(tal);
 
-                // 2. Sorter og mål tid
+                // Måler tid og antal sammenligninger
                 Stopwatch bubbleSW = Stopwatch.StartNew();
                 int sammenligninger = algo.BubbleSort(bubbleList, Comparer<int>.Default);
                 bubbleSW.Stop();
@@ -59,8 +69,9 @@ class Program
                 List<int> resultatListe = new List<int>();
                 for (int i = 0; i < bubbleList.Count; i++) resultatListe.Add(bubbleList[i]);
 
-                GemResultat("Bubble Sort", filNavn, bubbleList, sammenligninger, bubbleSW.Elapsed.TotalMilliseconds); //Kalder på metoden med de korrekte info som input
+                GemResultat("Bubble Sort", filNavn, bubbleList, sammenligninger, bubbleSW.Elapsed.TotalMilliseconds); //Gemmer resultater med GemResultat metoden
 
+                //Gentager det samme med Insertion Sort
                 MyList<int> insertionList = new MyList<int>();
                 foreach (int tal in indhold.values) insertionList.Add(tal); 
 
@@ -94,9 +105,18 @@ class Program
         Console.ReadLine();
     }
 
-
+    /// <summary>
+    /// Gemmer de endelige resultater som json og txt filer i output mappen
+    /// json filerne indeholder den fulde sorteringsdata mens txt filerne vider performance stats
+    /// </summary>
+    /// <param name="algoritme">Navnet på algoritmen</param>
+    /// <param name="filNavn">Navnet på den originale fil</param>
+    /// <param name="liste">Den sorteret liste</param>
+    /// <param name="sammenligninger">Antal sammenligninger</param>
+    /// <param name="tidMs">Tid i millisekunder</param>
     static void GemResultat(string algoritme, string filNavn, MyList<int> liste, int sammenligninger, double tidMs) //Metode der gemmer resultater i json og txt filer
     {
+        
         List<int> resultatsListe = new List<int>();
         for (int i = 0; i < liste.Count; i++)
         {
