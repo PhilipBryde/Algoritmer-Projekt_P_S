@@ -1,4 +1,4 @@
 Algoritme: Bubble Sort
 Fil: notSorted.json
 Sammenligninger: 4950
-Tid: 0,179 ms
+Tid: 0,0995 ms

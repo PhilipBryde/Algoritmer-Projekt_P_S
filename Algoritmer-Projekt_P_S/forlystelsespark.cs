@@ -23,8 +23,8 @@ namespace Algoritmer_Projekt_P_S
         
             // Venstre side (Carousel-grenen)
             entrance.Forbind(carousel);
-            carousel.Forbind(hauntedHouse);
             carousel.Forbind(rollerCoaster);
+            carousel.Forbind(hauntedHouse);
             rollerCoaster.Forbind(climbingTower);
             climbingTower.Forbind(volcanoRide);
 

@@ -35,7 +35,7 @@ namespace Algoritmer_Projekt_P_S
                         return;
                     }
 
-                    foreach (var nabo in nuværende.Naboer)
+                    foreach (var nabo in nuværende.Naboer.AsEnumerable().Reverse())
                     {
                         if (!besøgt.Contains(nabo))
                         {

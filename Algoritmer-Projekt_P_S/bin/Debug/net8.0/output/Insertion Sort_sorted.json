@@ -2,7 +2,7 @@
   "algorithm": "Insertion Sort",
   "dataset": "sorted.json",
   "comparisons": 0,
-  "time_ms": 0.4077,
+  "time_ms": 0.3944,
   "sorted": [
     1,
     2,
