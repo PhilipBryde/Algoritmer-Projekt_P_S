@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\Program.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Program.cs",
               "RelativeToolTip": "Algoritmer-Projekt_P_S\\Program.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAAFMAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAJYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T11:10:47.074Z",
               "EditorCaption": ""
@@ -87,8 +87,7 @@
               "RelativeToolTip": "Algoritmer_Projekt_P_S.Tests\\Test1.cs",
               "ViewState": "AgIAAHsAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T11:03:39.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T11:03:39.638Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "Algoritmer-Projekt_P_S\\bubblesort.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T13:26:51.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T13:26:51.034Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "Algoritmer-Projekt_P_S\\Insertion.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T23:41:57.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T23:41:57.199Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "Algoritmer-Projekt_P_S\\BFS.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAAD0AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T23:13:14.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T23:13:14.411Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "Algoritmer-Projekt_P_S\\Forlystelse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T12:42:56.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T12:42:56.057Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "Algoritmer-Projekt_P_S\\DFS.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T12:17:41.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T12:17:41.463Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "Algoritmer-Projekt_P_S\\forlystelsespark.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T12:11:51.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T12:11:51.46Z"
             }
           ]
         },

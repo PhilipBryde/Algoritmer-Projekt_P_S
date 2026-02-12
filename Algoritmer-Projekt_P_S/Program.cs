@@ -137,18 +137,18 @@ class Program
     {
         Console.Clear();
 
-        // 1. Byg parken
+        // Bygger parken
         Forlystelsespark tivoli = new Forlystelsespark();
         Forlystelse startSted = tivoli.BygOgVisPark();
 
-        // 2. Kør BFS (Breadth-First Search)
+        // Kører BFS (Breadth-First Search)
         BFS bfsAlgo = new BFS(); // Opretter BFS klassen
         bfsAlgo.Kør(startSted, "Water Ride");
         bfsAlgo.Kør(startSted, "Volcano Ride");
 
         Console.WriteLine("\n--------------------------------");
 
-        // 3. Kør DFS (Depth-First Search)
+        // Kører DFS (Depth-First Search)
         DFS dfsAlgo = new DFS(); // Opretter DFS klassen
         dfsAlgo.Kør(startSted, "Water Ride");
         dfsAlgo.Kør(startSted, "Volcano Ride");
