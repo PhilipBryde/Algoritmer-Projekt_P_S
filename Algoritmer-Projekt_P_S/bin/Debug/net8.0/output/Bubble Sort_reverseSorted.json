@@ -2,7 +2,7 @@
   "Algorithm": "Bubble Sort",
   "Dataset": "reverseSorted.json",
   "Comparisons": 4950,
-  "Time_ms": 0.1237,
+  "Time_ms": 0.1216,
   "Sorted": [
     1,
     2,

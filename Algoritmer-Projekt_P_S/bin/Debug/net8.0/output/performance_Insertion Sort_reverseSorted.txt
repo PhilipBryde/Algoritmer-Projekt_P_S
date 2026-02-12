@@ -1,4 +1,4 @@
 Algoritme: Insertion Sort
 Fil: reverseSorted.json
 Sammenligninger: 4950
-Tid: 0,0771 ms
+Tid: 0,0767 ms

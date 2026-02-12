@@ -17,7 +17,7 @@ public class SortResult
     public string Algorithm { get; set; }
     public string Dataset { get; set; }
     public int Comparisons { get; set; }
-    public double Time_ms { get; set; }
+    public double Time_ms { get; set; } //Double da vi skal have den mest nøjagtige tid
     public List<int> Sorted { get; set; }
 }
 
@@ -75,13 +75,13 @@ class Program
                 int sammenligninger1 = ins.InsertionSort(insertionList, Comparer<int>.Default);
                 insertionSW.Stop();
 
-                GemResultat("Insertion Sort", filNavn, insertionList, sammenligninger1, insertionSW.Elapsed.TotalMilliseconds); //Kalder på metoden med de korrekte info som input
+                GemResultat("Insertion Sort", filNavn, insertionList, sammenligninger1, insertionSW.Elapsed.TotalMilliseconds);
 
             }
             catch (FileNotFoundException) //Hvis de originale json filer ikke kan findes kommer denne fejlbesked
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"FEJL: Kunne ikke finde filen '{filNavn}'. Husk 'Copy to Output Directory'!");
+                Console.WriteLine($"FEJL: Kunne ikke finde filen '{filNavn}'");
                 Console.ResetColor();
             }
         }
