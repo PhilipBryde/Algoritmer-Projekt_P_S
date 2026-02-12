@@ -13,7 +13,7 @@
         public void BubbleSortTest_Empty() //Bubble sort tom test 
         {
             //Arrange
-            var sort = new Sort();
+            var sort = new Bubble();
             var liste = new MyList<int>();
 
             //Act
@@ -43,7 +43,7 @@
         public void BubbleSortTest_Sorted() //bubble sort sorteret liste 
         {
             //Arrange
-            var sort = new Sort();
+            var sort = new Bubble();
             var liste = new MyList<int>();
             int[] ints = { 1, 2, 3, 4, 5, 6 };
             foreach (int tal in ints) liste.Add(tal);
@@ -82,7 +82,7 @@
         public void BubbleSortTest_OneElement() //Bubble sort et element test 
         {
             //Arrange
-            var sort = new Sort();
+            var sort = new Bubble();
             var liste = new MyList<int>();
             liste.Add(3);
 
@@ -114,7 +114,7 @@
         public void BubbleSortTest_SameElements() // Bubble sort flere elementer test 
         {
             //Arrange
-            var sort = new Sort();
+            var sort = new Bubble();
             var liste = new MyList<int>();
             int[] ints = { 6, 2, 6, 9, 6 };
             foreach (int tal in ints) liste.Add(tal);

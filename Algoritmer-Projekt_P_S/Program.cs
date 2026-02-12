@@ -33,7 +33,7 @@ class Program
         // Navnene på de tre JSON-filer der skal sorteres
         string[] filer = { "sorted.json", "reverseSorted.json", "notSorted.json" };
 
-        Sort algo = new Sort();
+        Bubble bub = new Bubble();
         Insertion ins = new Insertion();
 
         // Opretter en mappe til resultaterne, hvis den ikke findes
@@ -41,10 +41,6 @@ class Program
         {
             Directory.CreateDirectory("output");
         }
-
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.WriteLine("--- Starter Sorteringer på alle filer ---");
-        Console.ResetColor();
 
         foreach (string filNavn in filer) //Går igennem hver fil og sorterer med begge algoritmer
         {
@@ -62,7 +58,7 @@ class Program
 
                 // Måler tid og antal sammenligninger
                 Stopwatch bubbleSW = Stopwatch.StartNew();
-                int sammenligninger = algo.BubbleSort(bubbleList, Comparer<int>.Default);
+                int sammenligninger = bub.BubbleSort(bubbleList, Comparer<int>.Default);
                 bubbleSW.Stop();
 
                 // 3. Forbered data til output-filen
@@ -81,9 +77,6 @@ class Program
 
                 GemResultat("Insertion Sort", filNavn, insertionList, sammenligninger1, insertionSW.Elapsed.TotalMilliseconds); //Kalder på metoden med de korrekte info som input
 
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"færdig! ({sammenligninger} sammenligninger, {bubbleSW.ElapsedMilliseconds} ms)");
-                Console.ResetColor();
             }
             catch (FileNotFoundException) //Hvis de originale json filer ikke kan findes kommer denne fejlbesked
             {
@@ -93,16 +86,15 @@ class Program
             }
         }
 
-        Console.WriteLine("\nAlle filer er behandlet. Tjek mappen 'output' for resultater.");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("\nFiler er blevet sorteret/opdateret, tjek 'output' mappen");
 
 
         //DELOPGAVE 2
+        Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("\nTryk enter for at starte Delopgave 2...");
         Console.ReadLine();
         KørDelopgave2();
-
-        Console.WriteLine("\nProgrammet er færdigt. Tryk enter for at lukke.");
-        Console.ReadLine();
     }
 
     /// <summary>
@@ -141,18 +133,13 @@ class Program
         File.WriteAllText($"output/performance_{algoritme}_{baseNavn}.txt", txtOutput); //json og txt fil oprettes med de korrekte navne og info
     }
 
-    static void KørDelopgave2()
+    static void KørDelopgave2() //Kører Delopgave 2
     {
-        Console.ForegroundColor = ConsoleColor.Magenta;
-        Console.WriteLine("--- Bygger Forlystelsespark (Delopgave 2) ---");
-        Console.ResetColor();
+        Console.Clear();
 
         // 1. Byg parken
         Forlystelsespark tivoli = new Forlystelsespark();
         Forlystelse startSted = tivoli.BygOgVisPark();
-
-        Console.WriteLine("\nTryk på ENTER for at starte søgninger...");
-        Console.ReadLine();
 
         // 2. Kør BFS (Breadth-First Search)
         BFS bfsAlgo = new BFS(); // Opretter BFS klassen

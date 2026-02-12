@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\insertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\insertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\forlystelse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\forlystelse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\mylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\mylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\dfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\dfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\bubblesort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\bubblesort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\insertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\insertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CDF5808-695B-4BC1-A0FB-B844CFF07EE9}|Algoritmer_Projekt_P_S.Tests\\Algoritmer_Projekt_P_S.Tests.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer_projekt_p_s.tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +33,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\forlystelsespark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\forlystelsespark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|c:\\users\\sidne\\source\\repos\\fitnessprogram\\algoritmer-projekt_p_s\\algoritmer-projekt_p_s\\forlystelse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{088BDBCE-E33D-238C-0D3B-AB548A560C89}|Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S.csproj|solutionrelative:algoritmer-projekt_p_s\\forlystelse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,93 +54,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Insertion.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Insertion.cs",
-              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\Insertion.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Insertion.cs",
-              "RelativeToolTip": "Algoritmer-Projekt_P_S\\Insertion.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T23:41:57.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BFS.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\BFS.cs",
-              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\BFS.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\BFS.cs",
-              "RelativeToolTip": "Algoritmer-Projekt_P_S\\BFS.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwD0AAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T23:13:14.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Forlystelse.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Forlystelse.cs",
-              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\Forlystelse.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Forlystelse.cs",
-              "RelativeToolTip": "Algoritmer-Projekt_P_S\\Forlystelse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Title": "MyList.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\MyList.cs",
+              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\MyList.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\MyList.cs",
+              "RelativeToolTip": "Algoritmer-Projekt_P_S\\MyList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T12:42:56.057Z",
+              "WhenOpened": "2026-02-12T13:41:02.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DFS.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\DFS.cs",
-              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\DFS.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\DFS.cs",
-              "RelativeToolTip": "Algoritmer-Projekt_P_S\\DFS.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T12:17:41.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "forlystelsespark.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\forlystelsespark.cs",
-              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\forlystelsespark.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\forlystelsespark.cs",
-              "RelativeToolTip": "Algoritmer-Projekt_P_S\\forlystelsespark.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAACkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T12:11:51.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Program.cs",
               "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\Program.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Program.cs",
               "RelativeToolTip": "Algoritmer-Projekt_P_S\\Program.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAwIMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T11:10:47.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Test1.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer_Projekt_P_S.Tests\\Test1.cs",
               "RelativeDocumentMoniker": "Algoritmer_Projekt_P_S.Tests\\Test1.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer_Projekt_P_S.Tests\\Test1.cs",
               "RelativeToolTip": "Algoritmer_Projekt_P_S.Tests\\Test1.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAAACoAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAYwI0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T11:03:39.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bubblesort.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\bubblesort.cs",
+              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\bubblesort.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\bubblesort.cs",
+              "RelativeToolTip": "Algoritmer-Projekt_P_S\\bubblesort.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T13:26:51.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Insertion.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Insertion.cs",
+              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\Insertion.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Insertion.cs",
+              "RelativeToolTip": "Algoritmer-Projekt_P_S\\Insertion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T23:41:57.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BFS.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\BFS.cs",
+              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\BFS.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\BFS.cs",
+              "RelativeToolTip": "Algoritmer-Projekt_P_S\\BFS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T23:13:14.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Forlystelse.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Forlystelse.cs",
+              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\Forlystelse.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\Forlystelse.cs",
+              "RelativeToolTip": "Algoritmer-Projekt_P_S\\Forlystelse.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T12:42:56.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DFS.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\DFS.cs",
+              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\DFS.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\DFS.cs",
+              "RelativeToolTip": "Algoritmer-Projekt_P_S\\DFS.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAxwBEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T12:17:41.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "forlystelsespark.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\forlystelsespark.cs",
+              "RelativeDocumentMoniker": "Algoritmer-Projekt_P_S\\forlystelsespark.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\FitnessProgram\\Algoritmer-Projekt_P_S\\Algoritmer-Projekt_P_S\\forlystelsespark.cs",
+              "RelativeToolTip": "Algoritmer-Projekt_P_S\\forlystelsespark.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T12:11:51.46Z",
               "EditorCaption": ""
             }
           ]

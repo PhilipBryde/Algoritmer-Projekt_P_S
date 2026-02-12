@@ -1,9 +1,9 @@
 {
-  "algorithm": "Insertion Sort",
-  "dataset": "sorted.json",
-  "comparisons": 0,
-  "time_ms": 0.3944,
-  "sorted": [
+  "Algorithm": "Insertion Sort",
+  "Dataset": "sorted.json",
+  "Comparisons": 0,
+  "Time_ms": 0.3901,
+  "Sorted": [
     1,
     2,
     3,

@@ -1,4 +1,0 @@
-Algoritme: BubbleSort
-Fil: notSorted.json
-Sammenligninger: 4950
-Tid: 0 ms

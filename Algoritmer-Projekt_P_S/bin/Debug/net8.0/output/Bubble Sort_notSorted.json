@@ -1,9 +1,9 @@
 {
-  "algorithm": "Bubble Sort",
-  "dataset": "notSorted.json",
-  "comparisons": 4950,
-  "time_ms": 0.0995,
-  "sorted": [
+  "Algorithm": "Bubble Sort",
+  "Dataset": "notSorted.json",
+  "Comparisons": 4950,
+  "Time_ms": 0.1268,
+  "Sorted": [
     1,
     2,
     3,

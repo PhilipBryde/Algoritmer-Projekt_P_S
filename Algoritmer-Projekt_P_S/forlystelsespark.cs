@@ -39,7 +39,7 @@ namespace Algoritmer_Projekt_P_S
             entrance.Forbind(iceCream);
             iceCream.Forbind(pirateShip);
 
-            // Viser forbindelserne
+            /* Viser forbindelserne
             Console.WriteLine("Parken er bygget! Her er forbindelserne:");
 
             VisNaboer(entrance);
@@ -47,12 +47,12 @@ namespace Algoritmer_Projekt_P_S
             VisNaboer(rollerCoaster);
             VisNaboer(climbingTower);
             VisNaboer(miniTrain);
-            VisNaboer(iceCream);
+            VisNaboer(iceCream);*/
 
             return entrance;
         }
 
-        // Hjælpe-metode til at udskrive
+        /* Hjælpe-metode til at udskrive
         private void VisNaboer(Forlystelse sted)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -62,6 +62,6 @@ namespace Algoritmer_Projekt_P_S
             {
                 Console.WriteLine($"   --> {nabo.Navn}");
             }
-        }
+        }*/
     }
 }

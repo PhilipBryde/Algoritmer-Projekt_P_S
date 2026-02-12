@@ -1,9 +1,9 @@
 {
-  "algorithm": "Insertion Sort",
-  "dataset": "reverseSorted.json",
-  "comparisons": 4950,
-  "time_ms": 0.0776,
-  "sorted": [
+  "Algorithm": "Insertion Sort",
+  "Dataset": "reverseSorted.json",
+  "Comparisons": 4950,
+  "Time_ms": 0.0771,
+  "Sorted": [
     1,
     2,
     3,

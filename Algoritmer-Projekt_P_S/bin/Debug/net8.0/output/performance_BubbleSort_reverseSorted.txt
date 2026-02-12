@@ -1,4 +1,0 @@
-Algoritme: BubbleSort
-Fil: reverseSorted.json
-Sammenligninger: 4950
-Tid: 0 ms
