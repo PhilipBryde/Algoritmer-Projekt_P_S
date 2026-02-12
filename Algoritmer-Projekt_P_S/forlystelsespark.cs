@@ -3,12 +3,15 @@ using System.Collections.Generic;
 
 namespace Algoritmer_Projekt_P_S
 {
+    /// <summary>
+    /// Bygger forlystelsesparken med forlystelser (noder) og forbinder dem med edges
+    /// </summary>
 
     public class Forlystelsespark
     {
         public Forlystelse BygOgVisPark()
         {
-            // --- 1. OPRET FORLYSTELSER ---
+            // Opretter nye forlystelser
             Forlystelse entrance = new Forlystelse("Entrance");
             Forlystelse carousel = new Forlystelse("Carousel");
             Forlystelse miniTrain = new Forlystelse("Mini Train");
@@ -21,22 +24,22 @@ namespace Algoritmer_Projekt_P_S
             Forlystelse volcanoRide = new Forlystelse("Volcano Ride");
 
         
-            // Venstre side (Carousel-grenen)
+            // Bygger og forbinder Venstre side (Carousel-grenen)
             entrance.Forbind(carousel);
             carousel.Forbind(rollerCoaster);
             carousel.Forbind(hauntedHouse);
             rollerCoaster.Forbind(climbingTower);
             climbingTower.Forbind(volcanoRide);
 
-            // Midten (Toget)
+            // Bygger og forbinder Midten (Toget)
             entrance.Forbind(miniTrain);
             miniTrain.Forbind(waterRide);
 
-            // Højre side (Isen)
+            // Bygger og forbinder Højre side (Isen)
             entrance.Forbind(iceCream);
             iceCream.Forbind(pirateShip);
 
-            // --- 3. VIS RESULTATET ---
+            // Viser forbindelserne
             Console.WriteLine("Parken er bygget! Her er forbindelserne:");
 
             VisNaboer(entrance);

@@ -14,11 +14,11 @@ public class JsonData { public List<int> values { get; set; } } //json
 /// </summary>
 public class SortResult
 {
-    public string algorithm { get; set; }
-    public string dataset { get; set; }
-    public int comparisons { get; set; }
-    public double time_ms { get; set; }
-    public List<int> sorted { get; set; }
+    public string Algorithm { get; set; }
+    public string Dataset { get; set; }
+    public int Comparisons { get; set; }
+    public double Time_ms { get; set; }
+    public List<int> Sorted { get; set; }
 }
 
 class Program
@@ -125,11 +125,11 @@ class Program
 
         var outputData = new SortResult
         {
-            algorithm = algoritme,
-            dataset = filNavn,
-            comparisons = sammenligninger,
-            time_ms = tidMs,
-            sorted = resultatsListe,
+            Algorithm = algoritme,
+            Dataset = filNavn,
+            Comparisons = sammenligninger,
+            Time_ms = tidMs,
+            Sorted = resultatsListe,
         };
 
         string baseNavn = Path.GetFileNameWithoutExtension(filNavn);

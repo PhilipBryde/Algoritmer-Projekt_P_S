@@ -3,8 +3,19 @@ using System.Collections.Generic;
 
 namespace Algoritmer_Projekt_P_S
 {
+    /// <summary>
+    /// Implementerer DFS algoritmen til grafen, kører nedad
+    /// </summary>
     public class DFS
     {
+        /// <summary>
+        /// Kører en DFS søgning fra startnoden til et specificeret mål
+        /// Bruger stack (last in, first out) til at håndtere noder som skal besøges
+        /// Naboer 'reverses' for at køre venstre -> højre.
+        /// Printer både de besøgte noder og den endelige vej til målet
+        /// </summary>
+        /// <param name="startNode">Hvilken node den skal starte ved</param>
+        /// <param name="målNavn">Navnet på noden den skal finde</param>
         public void Kør(Forlystelse startNode, string målNavn)
         {
             Console.ForegroundColor = ConsoleColor.Green;
@@ -35,7 +46,7 @@ namespace Algoritmer_Projekt_P_S
                         return;
                     }
 
-                    foreach (var nabo in nuværende.Naboer.AsEnumerable().Reverse())
+                    foreach (var nabo in nuværende.Naboer.AsEnumerable().Reverse()) //Reverse så den kører fra venstre side
                     {
                         if (!besøgt.Contains(nabo))
                         {
@@ -48,6 +59,11 @@ namespace Algoritmer_Projekt_P_S
             Console.WriteLine("Mål ikke fundet.");
         }
 
+        /// <summary>
+        /// Printer den fundne vej til målet ud
+        /// </summary>
+        /// <param name="målNode">Noden vi endte ved</param>
+        /// <param name="rute">Dictionary der mapper hver node til den forrige node i vejen </param>
         public void UdskrivSti(Forlystelse målNode, Dictionary<Forlystelse, Forlystelse> rute)
         {
             List<string> sti = new List<string>();

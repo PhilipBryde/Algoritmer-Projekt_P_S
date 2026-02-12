@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algoritmer_Projekt_P_S
 {
+    //Implementerer Insertion Sort algoritmen
     public class Insertion
     {
         public int InsertionSort<T>(MyList<T> liste, IComparer<T> comparer)
@@ -19,7 +20,7 @@ namespace Algoritmer_Projekt_P_S
 
                 while (pointer > 0 && comparer.Compare(value, liste.Get(pointer - 1)) < 0)
                 {
-                    sammenligninger++;
+                    sammenligninger++; //Tæller hver sammenligning
                     liste[pointer] = liste[pointer - 1];
                     pointer = pointer - 1;
                 }
